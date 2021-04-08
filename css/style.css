@@ -1,0 +1,95 @@
+ @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+        #app-vue {
+            display: flex;
+            justify-content: center;
+            font-family: 'Rubik', sans-serif;
+        }
+
+        body {
+            background: #313131;
+
+            font-size: 18px;
+        }
+
+        .fa-plus {
+            background-color: #FCA954;
+            color: #ffffff;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 30px
+        }
+
+
+        .lists {
+            width: 300px;
+            /* border: 1px solid black; */
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            background: #444444;
+        }
+
+        .container {
+            width: 300px;
+            /* border: 1px solid black; */
+            display: flex;
+            /* flex-direction: column; */
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            margin: 10px 0px;
+            background: #444444;
+            color: #AAAAAA;
+        }
+
+        .container input {
+            width: 80%;
+            padding: 8px 0px;
+            outline: none;
+            background: transparent;
+            border: none;
+            color: #AAAAAA;
+            font-size: 17px;
+        }
+
+        ::placeholder {
+            color: #AAAAAA;
+        }
+
+        .container-text {
+            width: 300px;
+            /* border: 1px solid black; */
+            padding: 20px;
+            margin: 20px 0px;
+            background: #444444;
+            color: #AAAAAA;
+        }
+
+        .text {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        li {
+            margin: 20px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #AAAAAA;
+        }
+
+        @media(max-width:332px) {
+
+            .lists,
+            .container-text,
+            .container {
+                width: 270px;
+                max-width: 250px;
+
+            }
+        }
