@@ -1,0 +1,3 @@
+# Shop-list
+
+BUILDING A SHOPPING LIST WITH VUE JS
